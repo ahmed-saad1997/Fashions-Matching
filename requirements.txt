@@ -1,0 +1,6 @@
+torch
+numpy
+ultralytics
+dill
+faiss-cpu
+opencv-python
