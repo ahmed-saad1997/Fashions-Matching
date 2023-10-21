@@ -15,7 +15,7 @@ The goal of this project is to develop a system that can accurately match fashio
 To get started, clone this repository to your local machine:
 
 ```
-git clone https://github.com/ahmed-saad1997/Fshions-Matching.git
+git clone https://github.com/ahmed-saad1997/Fashions-Matching.git
 ```
 
 Then, install the required dependencies:
