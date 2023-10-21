@@ -6,6 +6,10 @@ This project focuses on matching fashion pieces within images using a combinatio
 
 https://github.com/ahmed-saad1997/Fshions-Matching/assets/107448581/1e036871-2092-4317-8f6e-f2f2cf6e3587
 
+## Introduction
+
+The goal of this project is to develop a system that can accurately match fashion pieces within images. The system utilizes an instance segmentation model to identify and segment individual fashion items within an image. Then, a classification model, with the classification head removed, is employed to extract features from the segmented fashion pieces. Finally, a Faiss vector database is used to match the features extracted from both the preprocessed database images and the cropped fashion pieces.
+
 ## Getting Started
 
 To get started, clone this repository to your local machine:
@@ -53,6 +57,7 @@ The models were trained on the Fashionpedia dataset, which provides a diverse co
 
 - Ultralytics YOLOv8n: https://github.com/ultralytics
 - Fashionpedia dataset: https://fashionpedia.github.io/home/
+- Faiss vector database: https://github.com/facebookresearch/faiss
 
 ## License
 
